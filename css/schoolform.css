@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: skyblue;
+}   
+
+header {
+    background-color: aqua;
+    height: 50px;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(81, 190, 223);
+    
+}
+
+header * {
+    display: inline;
+}
+
+header li a {
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: fuchsia;
+    font-size: larger;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+.navbar a.hover {
+    background-color: #b2da23;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container {
+    /* float: right; */
+    /* text-align: right;
+    display: flex;
+    justify-content: flex-end; */
+    margin-right: 35px;
+    align-items: flex-end;
+}
+img {
+    /* display: inline-block; */
+    margin-left: 30px;
+    height: 30px;
+    width: 50px;
+    justify-content: flex-start;
+
+}
+.bodycontainer{
+    border: 2px solid skyblue;
+    margin: 50px 10px 30px 10px;
+    background-color: hotpink;
+    box-sizing: content-box;
+
+}
+.form_detail{
+    padding: 50px;
+    /* background-color: lightblue; */
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    color: indigo;
+    margin-top: 25px;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-top: 25px;
+}
+input[type=text], input[type=password], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: 2px skyblue;
+}
+/* div{
+    padding: 10px 0;
+} */
+label{
+    margin-left: 15px;
+}
+button{
+    background-color: skyblue;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    /* margin-left: 80px; */
+    display: inline-block;
+   
+    
+}
